@@ -193,8 +193,7 @@
 				TargetAttributes = {
 					5029CE9F1F6A33A500B4BA90 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UDMPAVQV7F;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					5029CEB31F6A33A600B4BA90 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -417,11 +416,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UDMPAVQV7F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ClickUILabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NQ.ClickUILabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +431,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UDMPAVQV7F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ClickUILabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NQ.ClickUILabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
